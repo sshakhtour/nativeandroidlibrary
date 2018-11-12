@@ -1,4 +1,4 @@
-package io.cmichel.boilerplate;
+package com.demo.nativelibrary;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Package implements ReactPackage {
+public class NativePackage implements ReactPackage {
 
     @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
